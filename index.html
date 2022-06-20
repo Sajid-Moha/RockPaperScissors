@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <script src="index.js"></script>
+  <div class="game">
+    <span id="result">Select a Play to Begin</span>
+    <div class="plays">
+      <div class="human">
+        <p class="player">
+          YOU
+        </p>
+        <p id="human-play">
+          
+        </p>
+      </div>
+      <div class="computer">
+        <p class="player">
+          COMPUTER
+        </p>
+        <p id="computer-play">
+          
+        </p>
+        </div>
+    </div>
+  </div>
+  <ul class="buttons">
+    <li>
+      <button onclick="game('ROCK')">
+        ROCK
+      </button>
+    </li>
+    <li>
+      <button onclick="game('PAPER')">
+        PAPER
+      </button>
+    </li>
+    <li>
+      <button onclick="game('SCISSORS')">
+        SCISSORS
+      </button>
+    </li>
+  </ul>
+</body>
+</html>
